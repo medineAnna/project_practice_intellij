@@ -1,21 +1,15 @@
 package HastaneProjesi;
 
 public class Hastane extends VeriBankasi {
-    private String isim;
-    private String soyisim;
-    private int hastaId;
-    private Durum hastaDurum;
 
-    Doktor doktor=new Doktor();
-    Hasta hasta=new Hasta();
+    Doktor doktor = new Doktor();
 
-    public Hasta getHasta() {
-        return hasta;
-    }
+    Hasta hasta = new Hasta();
 
-    public void setHasta(Hasta hasta) {
-        this.hasta = hasta;
-    }
+
+
+
+
 
     public Doktor getDoktor() {
         return doktor;
@@ -25,35 +19,18 @@ public class Hastane extends VeriBankasi {
         this.doktor = doktor;
     }
 
-    public Durum getHastaDurum() {
-        return hastaDurum;
+    public Hasta getHasta() {
+        return hasta;
     }
 
-    public void setHastaDurum(Durum hastaDurum) {
-        this.hastaDurum = hastaDurum;
+    public void setHasta(Hasta hasta) {
+        this.hasta = hasta;
     }
 
-    public int getHastaId() {
-        return hastaId;
-    }
 
-    public void setHastaId(int hastaId) {
-        this.hastaId = hastaId;
-    }
 
-    public String getSoyisim() {
-        return soyisim;
-    }
 
-    public void setSoyisim(String soyisim) {
-        this.soyisim = soyisim;
-    }
 
-    public String getIsim() {
-        return isim;
-    }
 
-    public void setIsim(String isim) {
-        this.isim = isim;
-    }
+
 }

@@ -1,17 +1,39 @@
 package HastaneProjesi;
 
-public class Hasta extends VeriBankasi{
+public class Hasta {
+
     private String isim;
-    private String soyisim;
-    private int hastaId;
+
+    private String soyIsim;
+
+    private int hastaID;
+
     private Durum hastaDurumu;
+
+
 
     public String getIsim() {
         return isim;
     }
 
-    public String getSoyisim() {
-        return soyisim;
+    public void setIsim(String isim) {
+        this.isim = isim;
+    }
+
+    public String getSoyIsim() {
+        return soyIsim;
+    }
+
+    public void setSoyIsim(String soyIsim) {
+        this.soyIsim = soyIsim;
+    }
+
+    public int getHastaID() {
+        return hastaID;
+    }
+
+    public void setHastaID(int hastaID) {
+        this.hastaID = hastaID;
     }
 
     public Durum getHastaDurumu() {
@@ -22,21 +44,8 @@ public class Hasta extends VeriBankasi{
         this.hastaDurumu = hastaDurumu;
     }
 
-    public void setSoyisim(String soyisim) {
-        this.soyisim = soyisim;
-    }
 
-    public int getHastaId() {
-        return hastaId;
-    }
-
-    public void setHastaId(int hastaId) {
-        this.hastaId = hastaId;
-    }
-
-    public void setIsim(String isim) {
-        this.isim = isim;
-    }
 
 
 }
+

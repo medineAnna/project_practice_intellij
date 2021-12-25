@@ -1,9 +1,13 @@
 package HastaneProjesi;
 
-public class Doktor extends VeriBankasi{
+public class Doktor {
+
     private String isim;
-    private String soyisim;
+
+    private String soyIsim;
+
     private String unvan;
+
 
     public String getIsim() {
         return isim;
@@ -13,12 +17,12 @@ public class Doktor extends VeriBankasi{
         this.isim = isim;
     }
 
-    public String getSoyisim() {
-        return soyisim;
+    public String getSoyIsim() {
+        return soyIsim;
     }
 
-    public void setSoyisim(String soyisim) {
-        this.soyisim = soyisim;
+    public void setSoyIsim(String soyIsim) {
+        this.soyIsim = soyIsim;
     }
 
     public String getUnvan() {
@@ -28,4 +32,10 @@ public class Doktor extends VeriBankasi{
     public void setUnvan(String unvan) {
         this.unvan = unvan;
     }
+
+
+
+
+
 }
+

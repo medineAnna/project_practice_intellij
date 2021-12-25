@@ -1,18 +1,21 @@
 package HastaneProjesi;
 
 public class VeriBankasi {
-    public static void main(String[] args) {
 
-        String doktorIsim[]={"Nilson", "John", "Robert", "Marry", "Alan", "Mahesh"};
+    String doctorIsimleri [] =               { "Nilson", "John", "Robert", "Marry", "Alan", "Mahesh" };
 
-        String doktorSoyisim[]={"Avery", "Abel", "Eric", "Jacob", "Pedro", "Tristen"};
+    String doctorSoyIsimleri[]=             { "Avery", "Abel", "Erik", "Jacob", "Pedro", "Tristen" };
 
-        String hastaIsim[]={"Warren", "Petanow", "Sophia", "Emma", "Darian", "Peter"};
+    String unvanlar[] =            { "Allergist", "Norolog", "Genel cerrah", "Cocuk doktoru","Dahiliye", "Kardiolog" };
 
-        String hastaSoyisim[]={"Traven", "William", "George", "Tristan", "Luis", "Cole"};
+    String hastaIsimleri []=                 { "Warren", "Petanow", "Sophia", "Emma", "Darian","Peter" };
 
-        String durumlar[]={"Allerji", "Bas Agri", "DM", "Soguk Alginlik", "Migren", "Kalp Hastaliklar"};
+    String hastaSoyIsimleri[]=               { "Traven", "William", "George", "Tristan", "Luis","Cole"};
 
-        int hastaId[]={111, 222, 333, 444, 555, 666};
-    }
+    String durumlar[]=             { "Allerji", "Bas agrisi", "Diabet", "Soguk alginligi", "Migren","Kalp hastaliklari"};
+
+    int hastaIDleri[] =                                   {111,222,333,444,555,666};
+
+
+
 }
