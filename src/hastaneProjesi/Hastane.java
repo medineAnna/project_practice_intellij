@@ -1,4 +1,4 @@
-package HastaneProjesi;
+package hastaneProjesi;
 
 public class Hastane extends VeriBankasi {
 

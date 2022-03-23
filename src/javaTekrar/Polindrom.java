@@ -1,4 +1,4 @@
-package JavaTekrar;
+package javaTekrar;
 
 import java.util.Scanner;
 

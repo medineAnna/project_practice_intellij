@@ -1,4 +1,4 @@
-package HastaneProjesi;
+package hastaneProjesi;
 
 public class Durum {
     private String aktuelDurum;
